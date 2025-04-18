@@ -1,0 +1,283 @@
+/* Media Query */
+@media (max-width: 1200px) {}
+@media (max-width: 991px) {
+	.table-detailes td {
+    padding: 8px;
+}
+  .accept-orders, .finished-orders {
+    width: 1440px !important
+  }
+  .sms-tabel {
+    width: 650px !important;
+  }
+	.waiting-orders {
+    width: 1780px !important;
+  }
+  .accept-orders td,
+	.finished-orders td,
+	.sms-tabel td,
+	.waiting-orders  td{
+    padding: 5px 30px 5px 0;
+  }
+  .layout-sidebar-large .main-header .header-part-right .header-icon.i-Full-Screen{
+    display: none !important;
+  }
+  .x4w {
+    display: contents;
+}
+  .x14p, .x14x{
+    overflow-x: scroll !important;
+   /* overflow-y: auto !important;*/
+  }
+} 
+@media screen and (max-width: 900px) and (min-width: 769px){
+  .auth-layout-wrap .auth-content{
+    top: 50px !important;
+  }
+}
+@media(max-width: 767px) {
+	.header-part-right {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+  ul.pagination {
+    display: inline-flex;
+  }
+  .auth-layout-wrap .auth-content {
+    min-width: 100%;
+  }
+  ul.pagination {
+    margin-top: 20px !important;
+  }
+.layout-sidebar-large .main-header {
+    position: relative;
+}
+.main-content-wrap {
+    padding: 1.5rem 1rem 9rem;
+}
+.invert-active .main-content-wrap{
+    padding: 1.5rem 1rem 0rem;
+}
+body.invert-active .main-content-wrap .app-footer {
+    width: calc(100% - 0px);
+    left: 0;
+    position: relative;
+}
+.loginInformation .username {
+    padding: 0 10px 0 10px;
+}
+}
+
+@media(max-width: 576px) {
+	.header-part-right {
+    margin: 13px auto 0;
+    width: 100%;
+}
+	.card-header:after {
+  width: calc(100% - 50PX);
+	}
+.layout-sidebar-large .main-header {
+    position: relative;
+}
+.main-content-wrap {
+    padding: 1.5rem 1rem 9rem;
+}
+	.card.table {
+    padding: 1em;
+}
+  .header-part-right .user {
+    padding: 0;
+  }
+  .layout-sidebar-large .main-header .logo {
+    width: 74px;
+  }
+  .main-header .d-flex.align-items-center {
+    display: none !important;
+  }
+  .main-header div[style="margin: auto"] {
+    display: none;
+  }
+  .breadcrumb ul {
+    margin-top: 15px;
+  }
+  .breadcrumb ul li:first-child {
+    padding-left: .5rem;
+  }
+  .login-options a:last-child .card.card-icon, .login-options a:first-child .card.card-icon {
+    border-radius: 20px;
+    border-right: 1px solid #056f6c14;
+    border-left: 1px solid #056f6c14;
+  }
+  .login-options a:first-child .card.card-icon:after {
+    display: none;
+  }
+  .login-options a {
+    width: 100%;
+  }
+  .login-options .card-icon {
+    margin: 30px 0 0;
+  }
+  .layout-sidebar-large .main-header .search-bar {
+    display: none;
+  }
+  .xuk .xg5{
+      top: 50px !important;/*fix issue 26122021*/
+  }
+  .xt7 .xuk {/*fix issue 26122021*/
+    padding: 20px 10px 50px 10px !important;
+  }
+  .x14p, .x14x{
+    overflow-x: scroll !important;
+   /* overflow-y: auto !important;*/
+  }
+  .x4z {
+    padding-left: 3px !important;
+    width: 100px;
+  }
+  label {
+    /*display: block;*/
+}
+  .col-md-6, .col-md-12{
+      padding: 0px;
+  }
+  .xt7{
+      margin-right: 0px !important;
+      margin-left: 0px !important;
+      padding: 0px;
+  }
+  .flex-end {
+    flex-wrap: wrap;
+}
+.row {
+    margin-right: -10px;
+    margin-left: -10px;
+}
+a.reportlink, a.reportlink:hover, button.reportlink, button.reportlink:hover {
+    font-size: 16px !important;
+}
+.invert-active .main-content-wrap{
+    padding: 1.5rem 1rem 0rem;
+}
+.x5s {
+    padding: 0px;
+}
+.x4w .x25, .x2h {
+    /*width: 100% !important;
+    min-width: 100% !important;
+    max-width: 100% !important;*/
+}
+.AFZOrderLayer .x1a{
+    max-height: 400px;
+    overflow: auto;
+}
+.AFZOrderLayer label{
+    white-space: normal;
+}
+.AFZOrderLayer div[role="dialog"] col,.AFZOrderLayer div[role="dialog"] div[role="search"] div.x1c9,.AFZOrderLayer div[role="dialog"] .xtb.p_AFFlow div{
+    width: 95% !important;
+    max-width: 95% !important;
+    margin: 0px auto ;
+}
+.AFZOrderLayer div[role="search"] .xth.x1ce .x1z select{
+    display: none;
+}
+.h-1450 .xvl {
+    min-height: 650px;
+}
+}
+@media(max-width: 400px) {
+	.main-header h4 {
+    font-size: 144%;
+}
+}
+@media(max-width: 320px) {}
+/* Media Query */
+@media (min-width: 1200px) {}
+@media (min-width: 991px) {}
+@media(min-width: 767px) {
+  .auth-layout-wrap .auth-content {
+    min-width: 660px;
+  } 
+}
+@media(min-width: 576px) {
+	div.table-responsive>div.dataTables_wrapper>div.row>div[class^="col-"]:last-child,
+	div.table-responsive>div.dataTables_wrapper>div.row>div[class^="col-"]:first-child {
+    padding: 5px;
+}
+}@media(max-width: 576px) {
+.rsponsive.p-5 {
+    padding: 1rem !important;
+}
+.layout-sidebar-large .main-header .header-part-right .header-icon.i-Full-Screen, .layout-sidebar-large .main-header .header-part-right .btn-group.font-size{
+	/*display:none !important;*/
+}
+.switch span:not(.slider) {
+    top: 0;
+}
+div[role="radiogroup"]{
+    display: flex;
+    flex-direction: column;
+} 
+.AFZOrderLayer > div[role="dialog"]:first-of-type, .x1eh > div[role="dialog"]:first-of-type {
+    /*position: fixed !important;
+    left: auto!important;
+    margin: 0 auto;
+    height: 0;
+    top: 295px !important;
+    width: 600px !important;
+    display: flex;
+    align-items: center;
+    max-width: 100% !important;
+    justify-content: center;*/
+    position: fixed !important;
+    left: 10px!important;
+    margin: 0 auto;
+    height: 0;
+    top: 50px !important;
+    width: 95% !important;
+    max-width: 95% !important;
+}
+.AFZOrderLayer div[role="dialog"] .x1d4 {
+    min-width: 100% !important;
+    max-width: 100% !important;
+}
+body.invert-active .main-content-wrap .app-footer {
+    width: calc(100% - 0px);
+    left: 0;
+    position: relative;
+}
+.AFZOrderLayer .x4w{
+    width: auto;
+}
+.AFZOrderLayer table.xuk ~ .xvl{
+    max-height: 250px !important;
+    overflow: auto ;
+}
+.AFZOrderLayer table.xuk ~ .xvl table td[role="gridcell"] span {
+    display: block;
+    font-size:13px;
+}
+}
+@media(max-width: 337px) {
+.AFZOrderLayer > div[role="dialog"]:first-of-type, .x1eh > div[role="dialog"]:first-of-type {
+    max-width: 97% !important;
+}
+}
+@media(min-width: 320px) {}
+
+/*Error messages tooltip 26122021*/
+div[role="tooltip"]{
+  z-index: 999 !important;
+  position: fixed !important;
+  animation: hideAnimation 0s ease-in 3s;
+  animation-fill-mode: forwards;
+}
+@keyframes hideAnimation {
+  to {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+}

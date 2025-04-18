@@ -1,0 +1,76 @@
+// ============================================================== 
+    // font size
+    // ============================================================== 
+
+
+    // When + or - buttons are clicked the font size of the h1 is increased/decreased by 2
+    // The max is set to 50px for this demo, the min is set by min font in the user's style sheet
+    var size, fontSizeHtml = 0,
+        fontSizeBody = 0,
+        fontSizeH5 = 0,
+        fontSizeH3 = 0,
+        fontSizeUl = 0,
+        sizeReset = 0;
+
+    function getSize() {
+
+        fontSizeHtml = parseInt($("html").css("font-size"));
+        fontSizeBody = parseInt($("body").css("font-size"));
+
+        fontSizeHtml = parseInt(fontSizeBody, 10);
+        fontSizeBody = parseInt(fontSizeBody, 10);
+
+    }
+
+    //get inital font size
+    getSize();
+
+    $(".increase-font").on("click", function () {
+        getSize();
+        // parse font size, if less than 50 increase font size
+        if (fontSizeBody <= 20) {
+            $('html').css("font-size", "+=2");
+            $('body').css("font-size", "+=2");
+
+        }
+    });
+
+    $(".decrease-font").on("click", function () {
+        getSize();
+        if (fontSizeBody >= 12) {
+
+            $('html').css("font-size", "-=2");
+            $('body').css("font-size", "-=2");
+
+        }
+    });
+
+    $(".opt-noraml-font").on("click", function () {
+
+        sizeReset = "14px";
+        $('html').css({
+            'font-size': sizeReset
+        });
+        $('body').css({
+            'font-size': sizeReset
+        });
+
+    });
+
+
+
+// ============================================================== 
+    // invert website color
+    // ============================================================== 
+
+$(".switch-toggle input").on("change", function (event) {
+        //var element = document.getElementsByTagName("body");
+        //element.classList.toggle("invert-active");
+       $("body").toggleClass("invert-active");
+       $(this).toggleClass("active");
+   });
+
+
+
+
+
